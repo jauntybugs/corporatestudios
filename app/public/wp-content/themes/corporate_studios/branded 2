@@ -1,0 +1,33 @@
+<?php get_header('inside'); ?>    
+    <div class="site-section" id="portfolio-section">
+      <div class="container">
+       	<div class="row mb-5 ">
+          <div class="col-md-7 section-title text-center mx-auto">
+            <h2 class="title text-primary mb-3">Branded Content</h2>
+            <span class="sub-title mb-2 d-block">We create unique, valuable, and specific content that align with your brand’s identity.Content tailored to suit your brief. Quality and professionally done.</span>
+			  <p>
+				  <a target="_blank" href="https://docs.google.com/forms/d/1Feoc8oyb_EQHLvrRl2BNPo1IsoGsRAB7pr3xEBusDQQ/edit" class="btn btn-outline-primary btn-md">Request a Quote</a>
+			  </p>
+          </div>
+        </div>
+       
+      <div class="row mb-5">
+          <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
+           <video width="100%" autoplay muted loop id="myVideo">
+			  <source src="<?php bloginfo('template_url'); ?>/video/podcast.mp4" type="video/mp4">
+			  Your browser does not support HTML5 video.
+			</video>
+          </div>
+          <div class="col-lg-5 h-100 jm-sticky-top mr-auto order-2 order-lg-1">
+            <p class="mb-4">Branded video for South Africa High Commision in Nigeria</p>
+            <video width="100%" autoplay muted loop id="myVideo">
+			  <source src="<?php bloginfo('template_url'); ?>/video/podcast.mp4" type="video/mp4">
+			  Your browser does not support HTML5 video.
+			</video> 
+            
+          </div>
+        </div>
+		  
+    </div>
+<?php the_content();?>
+<?php get_footer(); ?>
